@@ -108,6 +108,7 @@
   }
 
   .about-project__info-description {
+    margin: 39px 0 0 0;
     font-size: 12px;
     line-height: 18px;
   }

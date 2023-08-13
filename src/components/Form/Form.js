@@ -5,12 +5,12 @@ import logo from '../../images/logo.svg';
 
 function Form({ linkText, link, children, title, buttonText, question }) {
   return (
-    <div className="form__wrapper">
+    <section className="form">
       <Link to="/" className="form__logo">
         <img src={logo} alt="logo" />
       </Link>
       <h3 className="form__title">{title}</h3>
-      <form className="form" id="form" noValidate>
+      <form className="forma" id="form" noValidate>
         {children}
         <button type="submit" className="form__button-save">
           {buttonText}
@@ -22,7 +22,7 @@ function Form({ linkText, link, children, title, buttonText, question }) {
           {linkText}
         </Link>
       </p>
-    </div>
+    </section>
   );
 }
 

@@ -12,7 +12,7 @@ function Navigation({ handleClose }) {
           className="navigation__close-button"
           onClick={handleClose}
         ></button>
-        <nav className="navigation__links-list-list">
+        <nav className="navigation__links-list">
           <NavLink
             exact
             to="/"

@@ -34,7 +34,7 @@ function Portfolio() {
           />
         </a>
         <a
-          href="https://valerakod.github.io/react-mesto-auth/"
+          href="https://valerakod.github.io/mesto/"
           className="portfolio__link"
           target="_blank"
           rel="noreferrer"

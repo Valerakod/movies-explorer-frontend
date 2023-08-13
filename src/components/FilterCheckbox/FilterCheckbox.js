@@ -9,6 +9,7 @@ function FilterCheckbox({ onFilter, isShortMovies }) {
         type="checkbox"
         onChange={onFilter}
         checked={isShortMovies}
+        required
       ></input>
       <span className="filter__title">Short films</span>
     </form>

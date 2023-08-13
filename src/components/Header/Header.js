@@ -39,7 +39,7 @@ function Header() {
     <>
       {temporarilyHeaderOne() && (
         <header className="header" id="header">
-          <Link to="/" className="form__logo">
+          <Link to="/" className="header__logo">
             <img src={logo} alt="logo" />
           </Link>
           <div className="header__button-wrapper">
@@ -55,21 +55,19 @@ function Header() {
 
       {temporarilyHeaderSecond() && (
         <header className="header header_gray" id="header-gray">
-          <Link to="/" className="form__logo">
+          <Link to="/" className="header__logo">
             <img src={logo} alt="logo" />
           </Link>
-          <div className="header__button-wrapper_films">
+          <div className="header__button-wrapper header__button-wrapper_films">
             <NavLink
               to="/movies"
-              className="header__button"
-              ClassName="header__button_active"
+              className="header__button header__button_active"
             >
               Movies
             </NavLink>
             <NavLink
               to="/saved-movies"
-              className="header__button"
-              ClassName="header__button_active"
+              className="header__button header__button_active"
             >
               Saved movies
             </NavLink>

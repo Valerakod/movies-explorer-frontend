@@ -100,7 +100,7 @@ input:-ms-input-placeholder {
 
   .search__input {
     width: calc(100% - 80px);
-    padding: 17px 11px;
+    padding: 8px 11px;
     font-size: 16px;
     line-height: 16px;
   }
@@ -108,7 +108,8 @@ input:-ms-input-placeholder {
   .search__button {
     width: 82px;
     height: 44px;
-    margin-right: 5px;
+    margin: 5px 5px 5px 0;
+
   }
 
   .search__border-bottom  {

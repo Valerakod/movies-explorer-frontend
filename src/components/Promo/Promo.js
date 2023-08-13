@@ -16,7 +16,7 @@ function Promo() {
             Scroll to learn more about this project and the creator.
           </p>
         </div>
-        <img className="promo__image" src={landingLogo} alt="picture" />
+        <img className="promo__image" src={landingLogo} alt="pict" />
 
         <NavTab />
       </div>

@@ -77,7 +77,7 @@
   }
 
   .navigation__account-button {
-
+    text-decoration: none;
     width: 100px;
     height: 32px;
     background: #202020;
@@ -87,7 +87,7 @@
   }
 
   .navigation__account-text {
-    text-decoration: none !important;
+    text-decoration: none;
     border: none;
     outline: none;
     font-weight: 400;
