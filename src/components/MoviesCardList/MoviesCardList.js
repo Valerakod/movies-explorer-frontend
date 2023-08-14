@@ -25,7 +25,7 @@ function MoviesCardList() {
         </ul>
       </section>
       <div className="cards__button-wrapper">
-        <button className="cards__button">More</button>
+        <button className="cards__button-wrapper cards__button">More</button>
       </div>
     </>
   );

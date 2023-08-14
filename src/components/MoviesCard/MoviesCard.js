@@ -7,7 +7,7 @@ function MoviesCard() {
     <>
       <li className="card">
         {/* I inserted a card to see the layout of the page */}
-        <img alt="" className="card__image" />
+        <div aria-label="my picture" className="card__image" />
         <div className="card__wrapper">
           <div className="card__title-block">
             <h2 className="card__title">Lovely cat</h2>
@@ -18,7 +18,7 @@ function MoviesCard() {
       </li>
       <li className="card">
         {/* I inserted a card to see the layout of the page */}
-        <img alt="" className="card__image" />
+        <div aria-label="my picture" className="card__image" />
         <div className="card__wrapper">
           <div className="card__title-block">
             <h2 className="card__title">Lovely cat</h2>

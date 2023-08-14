@@ -75,7 +75,7 @@ function Header() {
           <div className="header__button-wrapper">
             <Link to="/profile" className="header__account-button">
               <div className="header__account-image-wrapper">
-                <a className="header__account-text">Account </a>
+                <span className="header__account-text">Account </span>
                 <img
                   className="header__account-image"
                   src={account}
